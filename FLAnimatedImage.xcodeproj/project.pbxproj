@@ -8,9 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		0C22DAEC1BCABF4F006E1D3B /* FLAnimatedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C22DAE71BCABF4F006E1D3B /* FLAnimatedImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0C22DAED1BCABF4F006E1D3B /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C22DAE81BCABF4F006E1D3B /* FLAnimatedImage.m */; settings = {ASSET_TAGS = (); }; };
+		0C22DAED1BCABF4F006E1D3B /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C22DAE81BCABF4F006E1D3B /* FLAnimatedImage.m */; };
 		0C22DAEE1BCABF4F006E1D3B /* FLAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C22DAE91BCABF4F006E1D3B /* FLAnimatedImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0C22DAEF1BCABF4F006E1D3B /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C22DAEA1BCABF4F006E1D3B /* FLAnimatedImageView.m */; settings = {ASSET_TAGS = (); }; };
+		0C22DAEF1BCABF4F006E1D3B /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C22DAEA1BCABF4F006E1D3B /* FLAnimatedImageView.m */; };
+		8E85532220C9E45E0090E29C /* FLAnimatedImage+NSCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E85532020C9E45E0090E29C /* FLAnimatedImage+NSCoding.m */; };
+		8E85532320C9E45E0090E29C /* FLAnimatedImage+NSCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E85532120C9E45E0090E29C /* FLAnimatedImage+NSCoding.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		0C22DAE91BCABF4F006E1D3B /* FLAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImageView.h; sourceTree = "<group>"; };
 		0C22DAEA1BCABF4F006E1D3B /* FLAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImageView.m; sourceTree = "<group>"; };
 		0C22DAEB1BCABF4F006E1D3B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E85532020C9E45E0090E29C /* FLAnimatedImage+NSCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FLAnimatedImage+NSCoding.m"; sourceTree = "<group>"; };
+		8E85532120C9E45E0090E29C /* FLAnimatedImage+NSCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FLAnimatedImage+NSCoding.h"; sourceTree = "<group>"; };
 		92C9BC0C1B199DC500D79B06 /* FLAnimatedImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FLAnimatedImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -40,6 +44,8 @@
 				0C22DAE81BCABF4F006E1D3B /* FLAnimatedImage.m */,
 				0C22DAE91BCABF4F006E1D3B /* FLAnimatedImageView.h */,
 				0C22DAEA1BCABF4F006E1D3B /* FLAnimatedImageView.m */,
+				8E85532120C9E45E0090E29C /* FLAnimatedImage+NSCoding.h */,
+				8E85532020C9E45E0090E29C /* FLAnimatedImage+NSCoding.m */,
 				0C22DAEB1BCABF4F006E1D3B /* Info.plist */,
 			);
 			path = FLAnimatedImage;
@@ -70,6 +76,7 @@
 			files = (
 				0C22DAEE1BCABF4F006E1D3B /* FLAnimatedImageView.h in Headers */,
 				0C22DAEC1BCABF4F006E1D3B /* FLAnimatedImage.h in Headers */,
+				8E85532320C9E45E0090E29C /* FLAnimatedImage+NSCoding.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E85532220C9E45E0090E29C /* FLAnimatedImage+NSCoding.m in Sources */,
 				0C22DAED1BCABF4F006E1D3B /* FLAnimatedImage.m in Sources */,
 				0C22DAEF1BCABF4F006E1D3B /* FLAnimatedImageView.m in Sources */,
 			);
