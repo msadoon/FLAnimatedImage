@@ -4,7 +4,7 @@
 //
 //  Created by Raphael Schaad on 7/8/13.
 //  Copyright (c) 2013-2015 Flipboard. All rights reserved.
-//
+//  This is a small change.
 
 
 #import <UIKit/UIKit.h>
